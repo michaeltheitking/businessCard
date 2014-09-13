@@ -13,6 +13,8 @@
 		8FDA54AB19C3DC10002C1F0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDA54AA19C3DC10002C1F0F /* Images.xcassets */; };
 		8FDA54AE19C3DC10002C1F0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDA54AC19C3DC10002C1F0F /* LaunchScreen.xib */; };
 		8FDA54BA19C3DC10002C1F0F /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA54B919C3DC10002C1F0F /* PostcardTests.swift */; };
+		8FDA54C419C3FD61002C1F0F /* me2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDA54C319C3FD61002C1F0F /* me2.png */; };
+		8FDA54C619C403AB002C1F0F /* me-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDA54C519C403AB002C1F0F /* me-orange.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8FDA549E19C3DC10002C1F0F /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDA549E19C3DC10002C1F0F /* Businesscard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Businesscard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDA54A219C3DC10002C1F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FDA54A319C3DC10002C1F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FDA54A519C3DC10002C1F0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8FDA54A819C3DC10002C1F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FDA54AA19C3DC10002C1F0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8FDA54AD19C3DC10002C1F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8FDA54B319C3DC10002C1F0F /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDA54B319C3DC10002C1F0F /* BusinesscardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinesscardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDA54B819C3DC10002C1F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FDA54B919C3DC10002C1F0F /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		8FDA54C319C3FD61002C1F0F /* me2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me2.png; sourceTree = "<group>"; };
+		8FDA54C519C403AB002C1F0F /* me-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me-orange.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +72,8 @@
 		8FDA549F19C3DC10002C1F0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FDA549E19C3DC10002C1F0F /* Postcard.app */,
-				8FDA54B319C3DC10002C1F0F /* PostcardTests.xctest */,
+				8FDA549E19C3DC10002C1F0F /* Businesscard.app */,
+				8FDA54B319C3DC10002C1F0F /* BusinesscardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +94,8 @@
 		8FDA54A119C3DC10002C1F0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8FDA54C519C403AB002C1F0F /* me-orange.png */,
+				8FDA54C319C3FD61002C1F0F /* me2.png */,
 				8FDA54A219C3DC10002C1F0F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -115,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8FDA549D19C3DC10002C1F0F /* Postcard */ = {
+		8FDA549D19C3DC10002C1F0F /* Businesscard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FDA54BD19C3DC10002C1F0F /* Build configuration list for PBXNativeTarget "Postcard" */;
+			buildConfigurationList = 8FDA54BD19C3DC10002C1F0F /* Build configuration list for PBXNativeTarget "Businesscard" */;
 			buildPhases = (
 				8FDA549A19C3DC10002C1F0F /* Sources */,
 				8FDA549B19C3DC10002C1F0F /* Frameworks */,
@@ -127,14 +133,14 @@
 			);
 			dependencies = (
 			);
-			name = Postcard;
+			name = Businesscard;
 			productName = Postcard;
-			productReference = 8FDA549E19C3DC10002C1F0F /* Postcard.app */;
+			productReference = 8FDA549E19C3DC10002C1F0F /* Businesscard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8FDA54B219C3DC10002C1F0F /* PostcardTests */ = {
+		8FDA54B219C3DC10002C1F0F /* BusinesscardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FDA54C019C3DC10002C1F0F /* Build configuration list for PBXNativeTarget "PostcardTests" */;
+			buildConfigurationList = 8FDA54C019C3DC10002C1F0F /* Build configuration list for PBXNativeTarget "BusinesscardTests" */;
 			buildPhases = (
 				8FDA54AF19C3DC10002C1F0F /* Sources */,
 				8FDA54B019C3DC10002C1F0F /* Frameworks */,
@@ -145,9 +151,9 @@
 			dependencies = (
 				8FDA54B519C3DC10002C1F0F /* PBXTargetDependency */,
 			);
-			name = PostcardTests;
+			name = BusinesscardTests;
 			productName = PostcardTests;
-			productReference = 8FDA54B319C3DC10002C1F0F /* PostcardTests.xctest */;
+			productReference = 8FDA54B319C3DC10002C1F0F /* BusinesscardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8FDA549919C3DC10002C1F0F /* Build configuration list for PBXProject "Postcard" */;
+			buildConfigurationList = 8FDA549919C3DC10002C1F0F /* Build configuration list for PBXProject "Businesscard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +187,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FDA549D19C3DC10002C1F0F /* Postcard */,
-				8FDA54B219C3DC10002C1F0F /* PostcardTests */,
+				8FDA549D19C3DC10002C1F0F /* Businesscard */,
+				8FDA54B219C3DC10002C1F0F /* BusinesscardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +200,8 @@
 			files = (
 				8FDA54A919C3DC10002C1F0F /* Main.storyboard in Resources */,
 				8FDA54AE19C3DC10002C1F0F /* LaunchScreen.xib in Resources */,
+				8FDA54C419C3FD61002C1F0F /* me2.png in Resources */,
+				8FDA54C619C403AB002C1F0F /* me-orange.png in Resources */,
 				8FDA54AB19C3DC10002C1F0F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +238,7 @@
 /* Begin PBXTargetDependency section */
 		8FDA54B519C3DC10002C1F0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8FDA549D19C3DC10002C1F0F /* Postcard */;
+			target = 8FDA549D19C3DC10002C1F0F /* Businesscard */;
 			targetProxy = 8FDA54B419C3DC10002C1F0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -338,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Businesscard;
 			};
 			name = Debug;
 		};
@@ -348,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Businesscard;
 			};
 			name = Release;
 		};
@@ -366,7 +374,7 @@
 				);
 				INFOPLIST_FILE = PostcardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BusinesscardTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Postcard.app/Postcard";
 			};
 			name = Debug;
@@ -381,7 +389,7 @@
 				);
 				INFOPLIST_FILE = PostcardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BusinesscardTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Postcard.app/Postcard";
 			};
 			name = Release;
@@ -389,7 +397,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FDA549919C3DC10002C1F0F /* Build configuration list for PBXProject "Postcard" */ = {
+		8FDA549919C3DC10002C1F0F /* Build configuration list for PBXProject "Businesscard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FDA54BB19C3DC10002C1F0F /* Debug */,
@@ -398,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FDA54BD19C3DC10002C1F0F /* Build configuration list for PBXNativeTarget "Postcard" */ = {
+		8FDA54BD19C3DC10002C1F0F /* Build configuration list for PBXNativeTarget "Businesscard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FDA54BE19C3DC10002C1F0F /* Debug */,
@@ -406,7 +414,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8FDA54C019C3DC10002C1F0F /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
+		8FDA54C019C3DC10002C1F0F /* Build configuration list for PBXNativeTarget "BusinesscardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FDA54C119C3DC10002C1F0F /* Debug */,

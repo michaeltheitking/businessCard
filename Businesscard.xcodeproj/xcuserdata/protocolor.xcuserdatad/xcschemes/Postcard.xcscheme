@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8FDA549D19C3DC10002C1F0F"
-               BuildableName = "Postcard.app"
-               BlueprintName = "Postcard"
-               ReferencedContainer = "container:Postcard.xcodeproj">
+               BuildableName = "Businesscard.app"
+               BlueprintName = "Businesscard"
+               ReferencedContainer = "container:Businesscard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8FDA54B219C3DC10002C1F0F"
-               BuildableName = "PostcardTests.xctest"
-               BlueprintName = "PostcardTests"
-               ReferencedContainer = "container:Postcard.xcodeproj">
+               BuildableName = "BusinesscardTests.xctest"
+               BlueprintName = "BusinesscardTests"
+               ReferencedContainer = "container:Businesscard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8FDA54B219C3DC10002C1F0F"
-               BuildableName = "PostcardTests.xctest"
-               BlueprintName = "PostcardTests"
-               ReferencedContainer = "container:Postcard.xcodeproj">
+               BuildableName = "BusinesscardTests.xctest"
+               BlueprintName = "BusinesscardTests"
+               ReferencedContainer = "container:Businesscard.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8FDA549D19C3DC10002C1F0F"
-            BuildableName = "Postcard.app"
-            BlueprintName = "Postcard"
-            ReferencedContainer = "container:Postcard.xcodeproj">
+            BuildableName = "Businesscard.app"
+            BlueprintName = "Businesscard"
+            ReferencedContainer = "container:Businesscard.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8FDA549D19C3DC10002C1F0F"
-            BuildableName = "Postcard.app"
-            BlueprintName = "Postcard"
-            ReferencedContainer = "container:Postcard.xcodeproj">
+            BuildableName = "Businesscard.app"
+            BlueprintName = "Businesscard"
+            ReferencedContainer = "container:Businesscard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8FDA549D19C3DC10002C1F0F"
-            BuildableName = "Postcard.app"
-            BlueprintName = "Postcard"
-            ReferencedContainer = "container:Postcard.xcodeproj">
+            BuildableName = "Businesscard.app"
+            BlueprintName = "Businesscard"
+            ReferencedContainer = "container:Businesscard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
